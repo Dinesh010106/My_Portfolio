@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Home Content Details */
+
+body{
+    color: #fff;
+    background-image: url(image2.jpg);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background: #000;
+    height: 11%;
+     
+}
+
+.logo{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    color: #0ef;
+    
+}
+
+.home-content {
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 200px;
+    display:inline-block;
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;   
+}
+
+.home-content h3 span {
+    color: #0ef;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px;
+}
+
+.home-content p{
+    font-size: 16px;
+    height: 5px;
+    cursor: default;
+}
+
+.home-content p abbr{
+    text-decoration: none;
+    cursor: grabbing;
+}
+
+#home #one, #two, #three{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-color: #0ef;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#resume {
+    margin-top: 15px;
+    border-color: chartreuse;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 25px;
+    color:black;
+    margin-left: 200px;
+    background-color:chartreuse;
+    display: block;
+    width: 160px; 
+    margin-top: 30px;    
+}
+
+#resume a {
+    text-decoration: none;
+    font-size: medium;
+    padding: 7%;
+    font-variant: small-caps;
+    color: black;
+}
+     
+.home-img {
+    margin-left: 53%;
+    margin-top: -34%;
+    overflow: hidden;
+    width: fit-content;
+    border-radius: 5%;
+}
+
+/* About Content Details  */
+
+.about-content h1 span {
+    color: #0ef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.about-content h1 {
+    text-align: center;
+}
+
+.four {
+    border-style: solid;
+    border-color:#fff;
+    border-width: 8px;
+    width: 59%;
+    background-image: url(image3.jpg);
+    border-radius: 15px;
+    color: black;
+    margin-top: 2%;
+    margin-left: 38%;
+    font-variant: small-caps;
+    cursor: default;
+}
+
+.about-image { 
+    margin-left: 32px;  
+    margin-top: -33%;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 7%;
+}
+
+.input-content {
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 30%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+.input-content legend h1 {
+    color: blue;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+.code-logo h1{
+     text-decoration: underline;
+     color: grey;
+     font-variant:small-caps ;
+     margin-bottom: 3%;
+     margin-left: 5%;
+}
+
+.bxl-html5 {
+    font-size: 80px;
+    align-items: center;
+    color: rgb(255, 106, 0);
+    margin-left: 18%;
+}
+
+.bxl-css3 {
+    font-size: 80px;
+    align-items: center;
+    color: skyblue;
+    margin-left: 10%;
+}
+
+.bxl-java {
+    font-size: 80px;
+    align-items: center;
+    color: white;
+    margin-left: 10%;
+}
+
+#About .bxl-github {
+    font-size: 80px;
+    align-items: center;
+    color: white;
+    margin-left: 10%;
+}
+
+.bxl-bootstrap {
+    font-size: 80px;
+    align-items: center;
+    color: cornflowerblue;
+    margin-left: 8%;
+}
+
+#About .bxl-git {
+    font-size: 80px;
+    align-items: center;
+    color: #0099CC;
+    margin-left: 18%;
+    margin-top: 30px;
+}
+
+.bxl-python {
+    font-size: 80px;
+    align-items: center;
+    color: gold;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+/* Project Content Details */
+
+#Project .five span {
+    color: #0ef;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+
+.five h1 {
+    text-align: center;
+}
+
+.six {
+    margin-right: 55%;
+    margin-left: 8%;
+    margin-top: 4%; 
+    cursor: default;   
+}
+
+.seven {
+    margin-left: 55%;
+    margin-right: 8%;
+    margin-top: -14.4%;
+    cursor: default;
+}
+
+/* Contact Content Details */
+
+.eight h1 {
+    color: #0ef;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.ten {
+    border-style: solid;
+    border-radius: 3%;
+    margin-right: 28%;
+    margin-left: 29%;
+    padding-left: 10%;
+    margin-top: 4%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    cursor: default;
+}
+
+.eleven {
+    background: rgb(7, 7, 7);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+.eleven p:hover {
+     color: #0ef;
+}
+
+
+
+
+
+

@@ -294,7 +294,137 @@ body{
      color: #0ef;
 }
 
+/* Mobile Responsive Design */
 
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .home-content {
+        margin: 120px 20px 20px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        height: auto;
+    }
+
+    .Social-media {
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    #resume {
+        margin: 20px auto;
+    }
+
+    .home-img {
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .home-img img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .four {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .about-image {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .input-content {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .input-content table {
+        width: 100%;
+    }
+
+    .input-content input {
+        width: 100%;
+    }
+
+    .code-logo {
+        text-align: center;
+    }
+
+    .bxl-html5,
+    .bxl-css3,
+    .bxl-java,
+    .bxl-bootstrap,
+    .bxl-python,
+    #About .bxl-github,
+    #About .bxl-git {
+        margin: 15px;
+        font-size: 60px;
+    }
+
+    .six,
+    .seven {
+        margin: 20px;
+    }
+
+    .seven {
+        margin-top: 20px;
+    }
+
+    .ten {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .eleven {
+        padding: 15px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+
+    .home-content {
+        margin-top: 120px;
+    }
+
+    .home-img img {
+        max-width: 350px;
+    }
+}
 
 
 
